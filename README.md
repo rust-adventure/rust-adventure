@@ -68,3 +68,19 @@ error: test failed, to rerun pass '-p hello-world --test output'
 ```````
 
 </details>
+
+```shell
+cargo test -p hello-world nonexisting
+    Finished test [unoptimized + debuginfo] target(s) in 0.09s
+     Running /Users/chris/github/christopherbiscardi/rust-adventure/target/debug/deps/hello_world-5edb99e9dd6fe5cd
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out
+
+     Running /Users/chris/github/christopherbiscardi/rust-adventure/target/debug/deps/output-1191747d69332647
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 1 filtered out
+```

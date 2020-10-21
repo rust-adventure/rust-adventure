@@ -45,6 +45,9 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 [[package]]
 name = "mutable-variables"
 version = "0.1.0"
+dependencies = [
+ "assert_cmd 1.0.1 (registry+https://github.com/rust-lang/crates.io-index)",
+]
 
 [[package]]
 name = "predicates"
@@ -73,6 +76,13 @@ dependencies = [
 name = "treeline"
 version = "0.1.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
+
+[[package]]
+name = "variable-types"
+version = "0.1.0"
+dependencies = [
+ "assert_cmd 1.0.1 (registry+https://github.com/rust-lang/crates.io-index)",
+]
 
 [[package]]
 name = "variables"

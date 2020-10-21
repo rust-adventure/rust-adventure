@@ -20,15 +20,12 @@ cargo test -p hello-world
 
 Some exercises have more than one test. Giving the prefix of a test you want to run will scope down the tests to the ones that match that prefix.
 
-<details>
-
-<summary>
-
 ```shell
 cargo test -p hello-world output
 ```
 
-</summary>
+<details>
+<summary>sample output</summary>
 
 ```````shell
     Finished test [unoptimized + debuginfo] target(s) in 0.03s

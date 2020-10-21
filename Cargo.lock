@@ -27,6 +27,10 @@ version = "0.3.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 
 [[package]]
+name = "dt-001-boolean"
+version = "0.1.0"
+
+[[package]]
 name = "hello-world"
 version = "0.1.0"
 dependencies = [
@@ -37,6 +41,10 @@ dependencies = [
 name = "libc"
 version = "0.2.79"
 source = "registry+https://github.com/rust-lang/crates.io-index"
+
+[[package]]
+name = "mutable-variables"
+version = "0.1.0"
 
 [[package]]
 name = "predicates"
@@ -65,6 +73,13 @@ dependencies = [
 name = "treeline"
 version = "0.1.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
+
+[[package]]
+name = "variables"
+version = "0.1.0"
+dependencies = [
+ "assert_cmd 1.0.1 (registry+https://github.com/rust-lang/crates.io-index)",
+]
 
 [[package]]
 name = "wait-timeout"

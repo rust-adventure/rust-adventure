@@ -27,8 +27,11 @@ version = "0.3.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 
 [[package]]
-name = "dt-001-boolean"
+name = "functions"
 version = "0.1.0"
+dependencies = [
+ "assert_cmd 1.0.1 (registry+https://github.com/rust-lang/crates.io-index)",
+]
 
 [[package]]
 name = "hello-world"
@@ -73,9 +76,23 @@ dependencies = [
 ]
 
 [[package]]
+name = "struct-impl"
+version = "0.1.0"
+dependencies = [
+ "assert_cmd 1.0.1 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[[package]]
 name = "treeline"
 version = "0.1.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
+
+[[package]]
+name = "unit-tests"
+version = "0.1.0"
+dependencies = [
+ "assert_cmd 1.0.1 (registry+https://github.com/rust-lang/crates.io-index)",
+]
 
 [[package]]
 name = "variable-types"

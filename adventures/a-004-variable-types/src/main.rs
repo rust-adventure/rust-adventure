@@ -1,4 +1,4 @@
-// Before this, Rust inferred the types of our variables
+// In previous exercises, Rust inferred the types of our variables
 // Here we specify types.
 // Change the types to make this program compile
 fn main() {

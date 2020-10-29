@@ -1,4 +1,4 @@
-// make this program compile by changing line 3,
+// make this program compile by changing line 5,
 // enabling `thing` to be mutable
 fn main() {
     let thing = 42;

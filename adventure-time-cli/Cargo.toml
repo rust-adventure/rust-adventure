@@ -1,5 +1,5 @@
 [package]
-name = "adventure-time-cli"
+name = "adventure-time"
 version = "0.1.0"
 authors = ["Christopher Biscardi <chris@christopherbiscardi.com>"]
 edition = "2018"
@@ -7,3 +7,7 @@ edition = "2018"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+assert_cmd = "1.0.4"
+owo-colors = "2.0.0"
+serde = { version = "1.0.126", features = ["derive"] }
+serde_yaml = "0.8.17"

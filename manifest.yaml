@@ -1,0 +1,12 @@
+order:
+  - hello-world
+  - variables
+  - mutable-variables
+  - variable-types
+  - functions
+  - unit-tests
+  - struct-impl
+  - errors-question-mark
+  - option
+  - result
+  - matching
